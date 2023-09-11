@@ -1,7 +1,7 @@
 import random
 import time
 
-choseofbot = ["камінь", "папір", "ножніці"]
+choseofbot = ["камінь", "папір", "ножиці"]
 
 while True:
     chose = input("виберіть камінь, ножиці чи папір закінчити гру exit: ")
@@ -31,7 +31,7 @@ while True:
         else:
             print("Ви програли")
     else:
-        print("Некоректний вибір. Спробуйте ще раз.")
+        print("неправильній вибір перезапускаю код")
         time.sleep(0.5)
 
 
